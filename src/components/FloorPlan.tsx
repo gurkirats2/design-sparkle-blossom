@@ -63,7 +63,6 @@ const FloorPlan: React.FC = () => {
         <div className="col-span-1"><FloorCell roomNumber="339" sizes={["3.75m²", "10m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="337" sizes={["3.75m²", "10m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="335" sizes={["3.5m²", "10m²"]} /></div>
-        <div className="col-span-1"><FloorCell roomNumber="333" sizes={["3.5m²", "9.5m²"]} /></div>
         
         {/* Sixth Row with Floor Label */}
         <div className="col-span-6"><SpecialCell text="HAL 2 BOVEN" /></div>
@@ -73,13 +72,8 @@ const FloorPlan: React.FC = () => {
         <div className="col-span-1"><FloorCell roomNumber="325" sizes={["3.75m²", "10m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="327" sizes={["3.75m²", "10m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="329" sizes={["3.75m²", "10m²"]} /></div>
-        <div className="col-span-1"><FloorCell roomNumber="331" sizes={["3.5m²", "9.5m²"]} /></div>
         
-        {/* Seventh Row with Verdieping Label */}
-        <div className="col-span-6"><SpecialCell text="Verdieping 2" /></div>
-        <div className="col-span-6"></div>
-        
-        {/* Eighth Row */}
+        {/* Seventh Row */}
         <div className="col-span-1"></div>
         <div className="col-span-1"></div>
         <div className="col-span-1"></div>
@@ -92,9 +86,8 @@ const FloorPlan: React.FC = () => {
         <div className="col-span-1"><FloorCell roomNumber="326" sizes={["6.75m²", "12.75m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="328" sizes={["5.25m²", "14m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="330" sizes={["4m²", "11m²"]} /></div>
-        <div className="col-span-1"><FloorCell roomNumber="332" sizes={["3.75m²", "10m²"]} /></div>
         
-        {/* Ninth Row */}
+        {/* Eighth Row */}
         <div className="col-span-1"><FloorCell roomNumber="319" sizes={["2m²", "5.5m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="317" sizes={["2m²", "5.5m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="316" sizes={["2m²", "5.5m²"]} /></div>
@@ -107,9 +100,8 @@ const FloorPlan: React.FC = () => {
         <div className="col-span-1"><FloorCell roomNumber="304" sizes={["4.75m²", "13m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="302" sizes={["4.75m²", "13m²"]} /></div>
         <div className="col-span-1"><FloorCell roomNumber="301" sizes={["4.75m²", "13m²"]} /></div>
-        <div className="col-span-1"><FloorCell roomNumber="299" sizes={["4.75m²", "13m²"]} /></div>
         
-        {/* Tenth Row - Small Cells */}
+        {/* Ninth Row - Small Cells */}
         <div className="col-span-12 grid grid-cols-24 gap-0.5">
           <div className="col-span-1"><FloorCell roomNumber="318" sizes={["2m²", "5m³"]} /></div>
           <div className="col-span-1"><FloorCell roomNumber="318-1" sizes={["2m²", "5m³"]} /></div>
@@ -129,8 +121,6 @@ const FloorPlan: React.FC = () => {
           <div className="col-span-1"><FloorCell roomNumber="306-1" sizes={["3m²", "8m³"]} /></div>
           <div className="col-span-1"><FloorCell roomNumber="303" sizes={["3m²", "8m³"]} /></div>
           <div className="col-span-1"><FloorCell roomNumber="303-1" sizes={["3m²", "8m³"]} /></div>
-          <div className="col-span-1"><FloorCell roomNumber="300" sizes={["3m²", "8m³"]} /></div>
-          <div className="col-span-1"><FloorCell roomNumber="300-1" sizes={["3m²", "8m³"]} /></div>
           <div className="col-span-4"></div>
         </div>
         
@@ -147,8 +137,6 @@ const FloorPlan: React.FC = () => {
           <div><FloorCell roomNumber="294" sizes={["3m²"]} /></div>
           <div><FloorCell roomNumber="295" sizes={["3m²"]} /></div>
           <div><FloorCell roomNumber="296" sizes={["3m²"]} /></div>
-          <div><FloorCell roomNumber="297" sizes={["3m²"]} /></div>
-          <div><FloorCell roomNumber="298" sizes={["8m²"]} /></div>
         </div>
       </div>
     </div>
